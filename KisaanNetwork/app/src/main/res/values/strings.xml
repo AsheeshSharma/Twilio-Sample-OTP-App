@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Kisaan Network</string>
+    <string name="otp_desc_sa">Your OTP is 123456</string>
+    <string name="data_fetched">data_fetch</string>
+</resources>

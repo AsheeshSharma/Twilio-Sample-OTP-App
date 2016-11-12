@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/otp_desc_sa"
+        android:id="@+id/defaultText"
+        android:textSize="25sp"
+        android:layout_above="@+id/sendOtp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="196dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Message"
+        android:id="@+id/sendOtp"
+        android:layout_marginBottom="66dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/defaultText"
+        android:layout_alignEnd="@+id/defaultText"
+        android:layout_alignLeft="@+id/defaultText"
+        android:layout_alignStart="@+id/defaultText" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView3"
+        android:layout_above="@+id/sendOtp"
+        android:layout_alignRight="@+id/defaultText"
+        android:layout_alignEnd="@+id/defaultText"
+        android:layout_marginBottom="79dp" />
+</RelativeLayout>
